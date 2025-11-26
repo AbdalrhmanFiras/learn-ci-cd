@@ -8,5 +8,6 @@ on:
 jobs:
   forepoen:
     runs-on: ubuntu-latest
-    step:
-      run: echo 'hi from reopen'
+    steps:
+      - name: s1
+        run: echo 'hi from reopen'
