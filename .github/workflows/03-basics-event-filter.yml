@@ -8,7 +8,8 @@ on:
   push:
     paths:
       # - "ci-cd/routes/web.php"
-      - "ci-cd/routes/*.php"
+      - "ci-cd/routes/**.php"
+    # paths-ignore:
 
 jobs:
   say-hi-to-me:
