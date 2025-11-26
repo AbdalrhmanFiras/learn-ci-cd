@@ -11,3 +11,9 @@ jobs:
 
       - name: step 2
         run: echo "hi guys"
+
+  say-hi-to-me:
+    runs-on: ubuntu-latest
+    steps:
+      - name:
+        run: echo "hi abd"
