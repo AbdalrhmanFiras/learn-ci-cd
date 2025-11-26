@@ -9,7 +9,8 @@ on:
     branches-ignore:
       - master
   push:
-    tags: v2
+    tags: [v2]
+    tags-ignore: [v1]
 
 jobs:
   forepoen:
