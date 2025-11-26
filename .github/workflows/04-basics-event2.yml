@@ -3,7 +3,7 @@ name: 04-basics-event-filter-2
 on:
   pull_request:
     types:
-      - reopen
+      - reopened
 
 jobs:
   forepoen:
