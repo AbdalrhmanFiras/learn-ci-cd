@@ -9,3 +9,6 @@ Route::get('/', function () {
 // sad
 // hi
 // ksklflk
+sameInstance(
+
+)
