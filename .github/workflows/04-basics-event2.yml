@@ -4,6 +4,12 @@ on:
   pull_request:
     types:
       - reopened
+    # branches:
+    #   - master
+    branches-ignore:
+      - master
+  push:
+    branches: [master]
 
 jobs:
   forepoen:
