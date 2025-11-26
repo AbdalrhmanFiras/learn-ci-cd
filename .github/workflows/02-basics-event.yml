@@ -1,4 +1,4 @@
-name: 01 event push
+name: 02 event push
 
 on: [push, pull_request]
 
