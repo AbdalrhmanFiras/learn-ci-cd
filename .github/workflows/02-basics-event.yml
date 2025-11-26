@@ -1,9 +1,9 @@
-name: 02
+name: 01 event push
 
 on: push
 
 jobs:
-   print-hello-world:
+  print-hello-world:
     runs-on: ubuntu-latest
     steps:
       - name: print-hello-world
