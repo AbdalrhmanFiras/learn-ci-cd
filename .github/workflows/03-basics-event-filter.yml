@@ -1,6 +1,9 @@
 name: 03 event filter
 
-on: [push, pull_request]
+on:
+  pull_request:
+    type:
+      - closed
 
 jobs:
   say-hi-to-me:
