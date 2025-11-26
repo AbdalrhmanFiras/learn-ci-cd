@@ -5,6 +5,8 @@ on:
     types:
       - closed
     # types: [closed,reopen]
+  push:
+    paths: "routes/web.php"
 
 jobs:
   say-hi-to-me:
