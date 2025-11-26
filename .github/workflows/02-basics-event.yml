@@ -5,12 +5,6 @@ on: [push, pull_request]
 jobs:
   print-hello-world:
     runs-on: ubuntu-latest
-    steps:
-      - name: print-hello-world
-        run: echo "hello world"
-
-      - name: step 2
-        run: echo "hi guys"
 
   say-hi-to-me:
     runs-on: ubuntu-latest
