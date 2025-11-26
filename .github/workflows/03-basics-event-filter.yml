@@ -7,7 +7,7 @@ on:
     # types: [closed,reopen]
   push:
     paths:
-      - "routes/web.php"
+      - "ci-cd/routes/web.php"
 
 jobs:
   say-hi-to-me:
