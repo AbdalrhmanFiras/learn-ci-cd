@@ -1,13 +1,13 @@
 name: 04-basics-event-filter-2
 
 on:
-  pull_request:
-    types:
-      - reopened
-    # branches:
-    #   - master
-    branches-ignore:
-      - master
+  # pull_request:
+  #   types:
+  #     - reopened
+  #   # branches:
+  #   #   - master
+  #   branches-ignore:
+  #     - master
   push:
     # tags: [v2]
     # tags-ignore: [v1]
