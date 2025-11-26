@@ -9,8 +9,10 @@ on:
     branches-ignore:
       - master
   push:
-    tags: [v2]
-    tags-ignore: [v1]
+    # tags: [v2]
+    # tags-ignore: [v1]
+  paths:
+    - "routes/web.php"
 
 jobs:
   forepoen:
