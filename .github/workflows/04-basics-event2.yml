@@ -1,0 +1,12 @@
+name: 04-basics-event-filter-2
+
+on:
+  pull_request:
+    types:
+      - reopen
+
+jobs:
+  forepoen:
+    runs-on: ubuntu-latest
+    step:
+      run: echo 'hi from reopen'

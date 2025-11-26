@@ -4,6 +4,7 @@ on:
   pull_request:
     types:
       - closed
+    # types: [closed,reopen]
 
 jobs:
   say-hi-to-me:
