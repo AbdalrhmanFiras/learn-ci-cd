@@ -9,7 +9,7 @@ on:
     branches-ignore:
       - master
   push:
-    branches-ignore: [master, main]
+    branches-ignore: [master]
 
 jobs:
   forepoen:
