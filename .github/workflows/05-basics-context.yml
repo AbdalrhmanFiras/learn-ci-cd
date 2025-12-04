@@ -10,4 +10,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name:
-        run: echo ${{ github.actor }}
+        run: echo ${{ toJson(github) }}
