@@ -9,5 +9,8 @@ jobs:
   weclome-to-me:
     runs-on: ubuntu-latest
     steps:
-      - name:
-        run: echo ${{ toJson(github) }}
+      - name: check1
+        run: echo 'berfore the conditions'
+        if: github.run_number == 10
+      - name: check2
+        run: echo {{github.run_number th}}
