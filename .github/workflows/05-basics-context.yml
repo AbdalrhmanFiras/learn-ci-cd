@@ -13,5 +13,5 @@ jobs:
         run: echo "before the conditions"
 
       - name: check2
-        if: ${{ github.run_number >= 20 }}
+        if: ${{ github.run_number >= 10 }}
         run: echo "sdsdd"
