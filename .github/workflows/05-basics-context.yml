@@ -1,0 +1,11 @@
+name: 05 context
+
+on:
+  push:
+
+jobs:
+  weclome-to-me:
+    runs-on: ubuntu-latest
+    steps:
+      - name:
+        run: echo 'hello world'
