@@ -1,6 +1,6 @@
 name: 05 context
 
-run-name: github.actor
+run-name: ${{ github.actor }} 1st round
 
 on:
   push:
