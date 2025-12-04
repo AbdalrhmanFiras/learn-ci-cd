@@ -10,7 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: check1
-        run: echo 'berfore the conditions'
-       if: github.run_number >= 20
+        run: echo "before the conditions"
+
       - name: check2
+        if: ${{ github.run_number >= 20 }}
         run: echo "sdsdd"
