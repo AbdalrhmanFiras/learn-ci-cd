@@ -13,4 +13,4 @@ jobs:
         run: echo 'berfore the conditions'
         if: github.run_number == 10
       - name: check2
-        run: echo ${{github.run_number th}}
+        run: echo "sdsdd"
