@@ -2,6 +2,9 @@ name: 05 context
 
 run-name: ${{ github.actor }} ${{github.run_number}}th try
 
+env:
+  MY_NAME: "ABDALRHMAN"
+
 on:
   push:
 
@@ -14,4 +17,4 @@ jobs:
 
       - name: check2
         if: ${{ github.run_number >= 10 }}
-        run: echo "sdsdd"
+        run: echo $MY_NAME
