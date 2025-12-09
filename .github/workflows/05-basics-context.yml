@@ -11,10 +11,12 @@ on:
 jobs:
   weclome-to-me:
     runs-on: ubuntu-latest
+    env:
+      MY_NAME2: "firas"
     steps:
       - name: check1
-        run: echo "before the conditions"
+        run: echo ${{env.MY_NAME}}
 
       - name: check2
         if: ${{ github.run_number >= 10 }}
-        run: echo ${{env.MY_NAME}}
+        run: echo ${{env.MY_NAME2}}
